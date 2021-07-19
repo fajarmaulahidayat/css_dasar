@@ -1,0 +1,44 @@
+/* pseudo class 1 */
+.hello:link {
+    color: orange;
+}
+
+.hello:hover {
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+/* pseudo class 2 */
+li:first-child a {
+    color: greenyellow;
+}
+
+li:last-child a {
+    color: hotpink;
+}
+
+/* (2n-1, odd, even) */
+li:nth-child(even) a {
+    color: khaki;
+}
+
+li:nth-child(even) a:hover {
+    color: red;
+}
+
+p:first-of-type {
+    color: royalblue;
+}
+
+p:last-of-type {
+    color: chartreuse;
+}

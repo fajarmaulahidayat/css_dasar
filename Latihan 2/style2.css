@@ -1,0 +1,20 @@
+h1 {
+    /* opsional */
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: lighter;
+    /* wajib */
+    font-size: 100px;
+    /* opsional */
+    line-height: 100px;
+    /* wajib */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font: oblique small-caps lighter 16px/18px Georgia;
+}

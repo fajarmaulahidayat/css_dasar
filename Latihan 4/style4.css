@@ -1,0 +1,10 @@
+body1 {
+    background-color: dodgerblue;
+    background-image: url(assets/bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background: rgb(2, 177, 235) url(assets/bg1.png) no-repeat center;
+}

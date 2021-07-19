@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    color: blueviolet;
+}
+
+ul li a {
+    color: orangered
+}
+
+ol li a {
+    color: seagreen;
+}
+
+#p1 {
+    color: orchid;
+}
+
+.p2 {
+    color: palegreen;
+}
+
+.cetak-tebal {
+    font-weight: bold;
+}
+
+p.cetak-tebal {
+    font-size: 30px;
+}
